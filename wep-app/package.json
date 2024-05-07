@@ -1,0 +1,39 @@
+{
+  "name": "3131498-jeremyrobert-bsch-et-finalproject",
+  "version": "1.0.0",
+  "description": "C, Java & Python online code compiler",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch --no-source-map scss:public/css",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JeremyRobert04/3131498-JeremyROBERT-BSCH-ET-FinalProject"
+  },
+  "keywords": [
+    "Code",
+    "Compiler",
+    "Online",
+    "C",
+    "Java",
+    "Python",
+    "Docker"
+  ],
+  "author": "Jérémy ROBERT",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.18.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "sass": "^1.76.0"
+  }
+}

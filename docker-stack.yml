@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  web-app:
+    image: 3131498jeremyrobert/online-compiler
+    ports:
+      - 8000:80
+    deploy:
+      replicas: 2
+
